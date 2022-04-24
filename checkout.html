@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content="Rainydays - Checkout">
+    <title>Rainy Days | Checkout</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=PT+Sans&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <header class="flex">
+    <a href="index.html">
+      <img src="images/RDLOGOBLACK.png" alt="Rainydays logo" class="logo">
+    </a>
+    <nav id="hamnav">
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
+      <div id="hamitems">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <img src="images/logostrek.png" alt="styling line" class="logoline">
+    </nav>
+  </header>
+      <main class="checkout flex">
+        <div class="paybox-one flex">
+            <h1>Your information</h1>
+            <form method="post">
+                <div class="infoform flex">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" />
+                    </div>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="name" id="name" name="name" />
+                    </div>
+                    <div>
+                        <label for="adress">Adress</label>
+                        <input type="text" id="adress" name="adress" />
+                    </div>
+                    <div>
+                        <label for="country">Country</label>
+                        <input type="text" id="country" name="country" />
+                    </div>
+                </div>
+            <h1>Payment information</h1>
+            <div class="payform flex">
+                <div>
+                    <label for="creditcard">Cardnumber</label>
+                    <input type="text" id="credit" name="credit" />
+                </div>
+                <div>
+                    <label for="expire">Expire date</label>
+                    <input type="text" id="expire" name="expire" />
+                </div>
+                <div>
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" />
+                </div>
+            </div>    
+            </form>
+        </div>    
+        <div class="paybox-two flex">
+            <h1>Your cart</h1>
+            <img src="images/jakke4.png" alt="male jacket" class="check-jakke">
+            <div class="product-button">
+                <input type="checkbox" id="submit">
+                <label for="submit"><a class="cta-button">Submit order</a></label>
+                <div class="added">
+                  <h3>SUCCESS</h3>
+                  <a class="cta-button" href="index.html">Continue Shopping</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

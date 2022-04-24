@@ -1,0 +1,590 @@
+body {
+    font-family: 'PT Sans' , Now, sans-serif;
+    
+    background-image: linear-gradient( rgba(115, 128, 119, 0.8), rgba(115, 128, 119, 0.8)),
+url("../images/background.jpg");
+    background-size: cover;
+    background-blend-mode: color;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Anton,
+    dm sans,
+    san-serif;
+    font-weight: lighter;
+    flex-direction: column;
+}
+
+.logo {
+    max-width: 180px;
+}
+
+.flex {
+    display: flex;
+}
+
+header{
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#hamnav {
+    background: none;
+}
+
+#hamitems { 
+    display: flex;
+}
+#hamitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+#hamitems a:hover { 
+    background:none;
+    text-decoration: overline;
+}
+#hamnav label, #hamburger { display: none; 
+}
+
+.logoline {
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #000;
+    text-shadow: #fff;
+    
+}
+
+.boxes h2 {
+    font-size: 25px;
+    color: #fff;
+}
+
+#shadowtext {
+    text-shadow: 0.5px 0.5px 20px #ffffff;
+    order: 2;
+    margin: 0;
+}
+
+#favorite {
+    order: 1;
+    margin: 0;
+}
+
+.boxone .cta {
+    order: 3;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.boxes {
+    margin-top: 2em;
+    max-width: 100%;
+    min-height: 25em;
+}
+
+.boxone {
+    flex: 2;
+    background-image: linear-gradient(90deg, rgba(000, 000, 00019, 0.5), rgba(000, 000, 000, 0.25));
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.boxtwo {
+    flex: 1;
+    background-image: linear-gradient(45deg, rgba(128, 108, 127, 0.25), rgba(128, 108, 127, 0.6));
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.jakker {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.jakke2, .jakke4 {
+    margin: 15px;
+}
+
+.cta {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(128, 108, 127);
+    background-color: #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4%;   
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.25);
+}
+
+/* ABOUT */
+
+.about {
+    flex-direction: column;
+    align-content: center;
+}
+
+.about-box {
+    display: flex;
+    min-height: 18em;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.25);
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 300px;
+    align-self: center;
+}
+
+.about-h1 {
+    align-self: center;
+}
+
+.about h2 {
+    color: #000;
+}
+
+/* CONTACT */
+
+.contact {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box {
+    display: flex;
+    min-height: 18em;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.25);
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+.contact-box img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.contact p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.contact-h1 {
+    align-self: center;
+}
+
+.phone, .email, .adress {
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon, .email-icon, .adress-icon {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.so-me {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.twitter {
+    margin: 0px 20px;
+}
+
+.instagram {
+    margin-right: 20px;
+}
+
+
+/* SHOP */
+
+.loading {
+    border: 20px solid rgb(255, 255, 255);
+    border-top: 16px solid rgb(128, 108, 127);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.margin {
+    margin: 10%;
+}
+
+.shop .cta {
+    max-height  : 30px;
+}
+
+.shopbox {
+    background-image: linear-gradient(90deg, rgba(000, 000, 00019, 0.5), rgba(000, 000, 000, 0.25));
+    width: 100%;
+}
+
+.shop-jakker {
+    background: rgba(255, 255, 255, 0.75);
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    min-width: 180px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.25);
+    
+}
+
+.shop-jakker:hover {
+    background-color: white;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 30px;
+    justify-content: center;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* JACKET */
+
+.justify-center {
+    justify-content: center;
+}
+
+.jacket {
+    justify-content: center;
+}
+
+.jacket-box {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.25);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.jacket-box img {
+    max-width: 200px;
+}
+
+.jacket h1 {
+    margin: 0;
+}
+
+.jacket-box h2 {
+    color: #000;
+    margin: 0;
+}
+
+.jacket-box p {
+    padding-left: 60px;
+}
+
+.jacket-box .jakke4 {
+    width: 100%;
+}
+
+.jacket-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jacket .cta {
+    max-width: 125px;
+}
+
+/* CHECKOUT */
+
+.checkout {
+    margin-top: 40px;
+}
+
+.paybox-one {
+    display: flex;
+    flex-direction: column;
+    min-height: 18em;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.25);
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+.paybox-two {
+    display: flex;
+    min-height: 18em;
+    width: 60%;
+    background: rgba(219, 219, 219, 0.938);
+    padding: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    min-width: 300px;
+    flex-direction: column;
+}
+
+.infoform {
+    flex-direction: column;
+    text-align: center;
+}
+
+.payform {
+    flex-direction: column;
+    text-align: center;
+}
+
+.check-jakke {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 180px;
+}
+
+/* COMPLETE */
+
+#submit, .added {
+    display: none;
+  }
+
+.added .cta-button{
+    margin-top: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgba(219, 219, 219, 0.938);
+  }
+  
+  .added .cta-button:hover{
+    border: 2px solid #FBFBFB;
+  }
+  
+  #submit:checked ~ .added {
+    display: flex;
+    color: #FBFBFB;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: #806C7F;
+    font-size: 30px;
+    border-radius: 5px;
+    position: absolute;
+    height: auto;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.25);
+    text-align: center;
+    transform: translate(-50%, 3%);
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 260px;
+  }
+
+  .cta-button {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #806C7F;
+    background-color: #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4%;   
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.25);
+    margin: 20px;
+  }
+
+/* [ON SMALL SCREENS] */
+
+@media screen and (max-width: 992px){
+
+/* SHOP */
+
+.grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.shop {
+    justify-content: center;
+}
+
+.shopbox {
+    margin-top: 40px;
+    flex-direction: column;
+    background: none;
+    max-width: 600px;
+    align-self: center;
+}
+
+.product {
+    flex-direction: column;
+    align-items: center;
+}
+
+.our, .collection {
+    justify-content: center;
+    padding: 30px;
+}
+
+.collection {
+    background:rgba(000, 000, 000, 0.25)
+}
+
+.shop-jakker {
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+/* JACKET */
+
+    .jacket-box {
+        flex-direction: column;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .jacket-box img {
+        max-width: 228px;
+        max-height: 258px;
+    }
+
+    .jacket-text {
+        align-items: center;
+    }
+    
+    .jacket-box p {
+        padding-left: 0;
+    }
+
+    .radio {
+        margin: 15px;
+    }
+
+/* CHECKOUT */
+    .checkout {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* (A) BREAK INTO VERTICAL MENU */
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    body {
+        background-size: cover;
+    }
+
+    header {
+        flex-direction: row-reverse;
+    }
+
+    .logo {
+      position: absolute;
+      margin-top: 10px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .logoline {
+        display: none;
+    }
+    
+    #hamitems a {
+      box-sizing: border-box;
+      display: block;
+      border-top: 1px solid #333;
+    }
+   
+    /* (B) SHOW HAMBURGER ICON */
+    #hamnav label { 
+      display: block; 
+      color: #000;
+      background: none;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    /* (C) TOGGLE SHOW/HIDE MENU */
+    #hamitems { display: none; }
+    #hamnav input:checked ~ #hamitems { 
+        display: block; 
+        position:absolute;
+        background-color: #fff;
+
+    }
+
+    #shadowtext {
+        margin: 0;
+    }
+
+    #favorite {
+        margin: 0;
+    }
+
+    .boxes {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .boxone {
+        align-items: center;
+        min-height: 400px;
+    }
+
+    .boxtwo {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    /* (A) BREAK INTO VERTICAL MENU */
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
