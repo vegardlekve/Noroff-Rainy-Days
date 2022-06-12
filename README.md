@@ -24,6 +24,8 @@ Later we were tasked with adding better functionality with interaction design, a
 I'm not particularly pleased with the result, but considering my first lines of code were written in this project, it stands to show how much I've learned
 the past year. 
 
+[Live site](https://mellifluous-marzipan-cdf48a.netlify.app/)
+
 ## Built With
 
 - HTML
@@ -33,3 +35,4 @@ the past year.
 
 ## Contact
 
+[Twitter](https://twitter.com/playwo0d)
