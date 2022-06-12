@@ -21,6 +21,8 @@ The site architecture should consist off:
 
 Later we were tasked with adding better functionality with interaction design, and content through Wordpress' REST API. 
 
+Thoughts:
+
 I'm not particularly pleased with the result, but considering my first lines of code were written in this project, it stands to show how much I've learned
 the past year. 
 
